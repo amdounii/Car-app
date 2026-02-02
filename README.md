@@ -55,7 +55,7 @@ L’objectif est de permettre :
 - MySQL
 
 
-## ▶️ Lancement du projet
+## 1/ Lancement du projet
 
 ### 1️⃣ Frontend (angular)
 
@@ -66,5 +66,14 @@ ng serve
 
 cd backend
 mvn spring-boot:run
+
+## 2/ Lancement du projet (Docker)
+
+
+RUN :docker compose up --build
+Arreter : docker compose down
+
+
+
 
 
